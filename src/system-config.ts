@@ -17,8 +17,7 @@ const packages: any = {
 /** put the names of any of your Material components here. */
 const materialPackages: string[ ] = [
   'core',
-  'button',
-  'card',
+  'toolbar',
 ];
 
 materialPackages.forEach((pkg) => packages[`@angular2-material/${pkg}`] = { main: `${pkg}.js` });
