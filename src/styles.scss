@@ -1,0 +1,7 @@
+@import 'app/shared/variables';
+
+html {
+  font-size: $root-font-size;
+  font-family: $base-font-family;
+  background-color: rgba(0, 0, 0, .027451);
+}

@@ -1,0 +1,30 @@
+@import '../shared/variables';
+
+.container {
+  margin: 0 auto;
+  width: 80vw;
+}
+
+md-toolbar {
+  box-shadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+h2 {
+  font-family: $base-font-family;
+  font-size: 1.2rem;
+  font-weight: 200;
+}
+
+.fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+md-card {
+  border-radius: 0;
+}
+
+.markdown {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .25);
+  padding: 16px;
+}

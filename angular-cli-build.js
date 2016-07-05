@@ -17,7 +17,9 @@ module.exports = function(defaults) {
       'systemjs/dist/system.src.js',
       'zone.js/dist/**/*.+(js|js.map)',
 
-      '@angular2-material/**/*.js'
+      '@angular2-material/**/*.js',
+      'ress/dist/ress.min.css',
+      'marked/marked.min.js'
     ]
   });
 };

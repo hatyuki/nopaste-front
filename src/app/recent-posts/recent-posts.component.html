@@ -1,0 +1,16 @@
+<h2>Recent Posts</h2>
+
+<div class="card-container">
+  <md-card *ngFor="let post of posts">
+    <md-card-title>{{ post.title }}</md-card-title>
+    <md-card-subtitle>Last modified: 2016-01-01 12:00:00</md-card-subtitle>
+    <md-card-content>{{ post.markdown }}</md-card-content>
+    <md-card-actions align="end">
+      <button md-button color="primary" (click)="gotoPost(post.key)">Show</button>
+    </md-card-actions>
+  </md-card>
+</div>
+
+<button class="plus" md-fab>
+  <md-icon>add</md-icon>
+</button>

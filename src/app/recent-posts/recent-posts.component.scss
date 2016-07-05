@@ -1,0 +1,19 @@
+@import '../shared/variables';
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+md-card {
+  width: 30vw;
+  margin: 16px;
+  font-family: $base-font-family;
+}
+
+.plus {
+  opacity: .9;
+  position: fixed;
+  right: 32px;
+  bottom: 32px;
+}

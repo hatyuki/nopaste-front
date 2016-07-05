@@ -7,16 +7,25 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
-  '@angular2-material': 'vendor/@angular2-material'
+  '@angular2-material': 'vendor/@angular2-material',
+  'marked':             'vendor/marked',
 };
 
 /** User packages configuration. */
 const packages: any = {
+  'marked': {
+    format: 'cjs',
+    defaultExtension: 'js',
+    main: 'marked.min.js',
+  }
 };
 
 /** put the names of any of your Material components here. */
 const materialPackages: string[ ] = [
   'core',
+  'card',
+  'button',
+  'icon',
   'toolbar',
 ];
 
@@ -44,6 +53,9 @@ const barrels: string[] = [
   // App specific barrels.
   'app',
   'app/shared',
+  'app/recent-posts',
+  'app/post-detail',
+  'app/post-edit',
   /** @cli-barrel */
 ];
 
