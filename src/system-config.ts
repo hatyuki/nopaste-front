@@ -26,6 +26,7 @@ const materialPackages: string[ ] = [
   'card',
   'button',
   'icon',
+  'input',
   'toolbar',
 ];
 

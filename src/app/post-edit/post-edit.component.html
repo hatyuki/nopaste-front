@@ -1,5 +1,14 @@
 <ng-container *ngIf="post">
-  <p>{{post.key}}</p>
-  <p>{{post.title}}</p>
-  <p>{{post.markdown}}</p>
+  <md-card>
+    <md-card-content>
+      <md-input placeholder="Title" [(ngModel)]="post.title"></md-input>
+      <label>Markdown</label>
+      <textarea [(ngModel)]="post.markdown"></textarea>
+      <md-input placeholder="Expired at" type="datetime-local" autocomplete="on" value="2016-01-01 10:00:00"></md-input>
+    </md-card-content>
+    <md-card-actions align="end">
+      <button md-raised-button (click)="gotoDetail( )">Cancel</button>
+      <button md-raised-button (click)="save( )" color="primary">Submit</button>
+    </md-card-actions>
+  </md-card>
 </ng-container>

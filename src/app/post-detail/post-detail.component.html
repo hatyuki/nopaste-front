@@ -1,13 +1,13 @@
 <div class="container" *ngIf="post">
-  <md-toolbar color="primary">
-    <h2>{{post.title}}</h2>
-    <span class="fill-remaining-space"></span>
-    <button md-icon-button (click)="gotoEdit( )">
-      <md-icon>edit</md-icon>
-    </button>
-  </md-toolbar>
-
   <md-card>
+    <md-toolbar color="primary">
+      <h2>{{post.title}}</h2>
+      <span class="fill-remaining-space"></span>
+      <button md-icon-button (click)="gotoEdit( )">
+        <md-icon>edit</md-icon>
+      </button>
+    </md-toolbar>
+
     <md-card-content [innerHTML]="post.markdown | markdown">
     </md-card-content>
   </md-card>
