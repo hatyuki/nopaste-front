@@ -1,0 +1,20 @@
+md-card {
+  margin: 0 auto;
+  width: 80vw; }
+
+md-toolbar {
+  margin: -24px -24px 24px -24px !important;
+  width: initial; }
+
+h2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 200; }
+
+.fill-remaining-space {
+  flex: 1 1 auto; }
+
+.markdown {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 16px; }

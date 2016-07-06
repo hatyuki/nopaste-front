@@ -1,0 +1,14 @@
+.card-container {
+  display: flex;
+  flex-flow: row wrap; }
+
+md-card {
+  width: 30vw;
+  margin: 16px;
+  font-family: "Noto Sans JP", sans-serif; }
+
+.plus {
+  opacity: .9;
+  position: fixed;
+  right: 32px;
+  bottom: 32px; }
